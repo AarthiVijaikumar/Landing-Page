@@ -1,0 +1,4 @@
+header content colour :#F0B026
+menu items in navbar :#484848
+buttun backgriunf is blck and foreground:#FBFBFB 
+price amount near button is #0CA95C

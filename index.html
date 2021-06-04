@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><!--#FFC63C -yellow #F29570-red #CAE762-green
+   <img src="C:\Users\Admin\Pictures\handburger.png" height="300px" width="300px" > 
+<div style="background-color:#FFC63C; width:500px; height:500px;position:relative;top:700px;left:100%;border-top-left-radius:500px;">
+<img style="position:relative;left:40px;top:40px;" src="images/handburger.png">
+</div>-->
+<section>
+    <div class="circle"></div>
+    <header>
+        <a><img src="images/logo.png" class = "logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Varieties</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Its Our <span>Burger House</span> Hamburgers </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nesciunt omnis dolores minima facilis nam similique voluptatem praesentium rerum? Voluptatibus doloremque inventore 
+                unde porro ducimus voluptate id quidem nesciunt sed.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="images/veg burger.png" class="main_img" >
+           </div>
+            
+        </div>
+<ul class="varieties">
+    <li><img src="images/veg burger.png" onclick="img_slider('images/veg burger.png');circleColorSlider('#FFC63C')"></li>
+    <li><img src="images/chicken burger-edited.png" onclick="img_slider('images/chicken burger(1).png');circleColorSlider('#F29570')"></li>
+    <li><img src="images/bacon burger(1).png" onclick="img_slider('images/bacon burger(1).png');circleColorSlider('#CAE762')"></li>
+</ul>
+<ul class = "social_media">
+<li><a href="#"><img src="images/facebook-logo.png"></a></li>
+<li><a href="#"><img src="images/twitter-logo.png"></a></li>
+<li><a href="#"><img src="images/instagram-logo.png"></a></li>
+</ul>
+</section>
+<script type="text/javascript">
+function img_slider(anyImage)
+{
+    document.querySelector('.main_img').src=anyImage;
+}
+function circleColorSlider(color)
+{
+    const circle =document.querySelector('.circle');
+    circle.style.background = color;
+    
+}
+
+</script>
+</body>
+</html>
